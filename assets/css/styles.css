@@ -1,0 +1,71 @@
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 400px;
+    justify-content: center;
+    width: 400px;
+}
+
+.textarea {
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    resize: none;
+    width: 99%;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.textarea::placeholder {
+    font-family: "Inter", sans-serif;
+}
+
+.containerBotao {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 400px;
+}
+
+.criptografar {
+    color: #ffffff;
+    background-color: #0a3871;
+    border: none;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    height: 50px;
+    width: 35%;
+}
+
+.criptografar:hover {
+    cursor: pointer;
+}
+
+.descriptografar {
+    color: #ffffff;
+    background-color: #20518d;
+    border: none;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    height: 50px;
+    width: 35%;
+}
+
+.descriptografar:hover {
+    cursor: pointer;
+}
